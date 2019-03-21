@@ -1,56 +1,45 @@
-.custom{
-  cursor: url('images/my-cursor.png'), auto;
-}
-
 body {
   font-family: 'Helvetica', sans-serif;
+  cursor: url("/images/cursor.png"), pointer;
 }
-
-/* canvas {
-  background: #fff0;
-  display: block;
-  margin: auto;
-  cursor: url('../my-cursor.png'), crosshair;
-} */
 
 logo {
   font-size: 25px;
   color: #ff3108;
   font-weight: 100;
-  position:fixed;
-  left:100px;
-  top:30px;
-  
+  position: fixed;
+  left: 100px;
+  top: 30px;
 }
 
-nav{
+nav {
   font-size: 25px;
   color: #ff3108;
   font-weight: 100;
   line-height: 10em;
-  position:fixed;
-  left:1200px;
+  position: fixed;
+  left: 1200px;
   top: 15%;
 }
 
-footer{
+footer {
   font-size: 15px;
   color: #ff3108;
-  font-weight:100;
+  font-weight: 100;
   position: absolute;
-  left:45%;
-  top:95%;
+  left: 45%;
+  top: 95%;
 }
+
 .animated-intro {
-  font-family: 'Ubuntu', sans-serif;
   display: block;
   line-height: 30px;
   font-size: 80px;
   line-height: 1.2em;
   position: relative;
-  left:100px;
-  top:130px;
-  width:900px;
+  left: 100px;
+  top: 130px;
+  width: 900px;
 }
 
 .animated-intro .element {
@@ -69,40 +58,26 @@ footer{
   bottom: 0;
   opacity: 1;
   background: #fff5eb;
-  color:#ff3108;
-  -webkit-animation: FadeIn 0.4s ease-in-out;
-          animation: FadeIn 0.4s ease-in-out;
+  color: #ff3108;
+  -webkit-animation: FadeIn 0.3s ease-in-out;
+  animation: FadeIn 0.3s ease-in-out;
 }
 
-
-about{
-  font-family: 'Ubuntu', sans-serif;
+about {
   font-size: 30px;
   position: relative;
-  left:580px;
-  bottom:160px;
+  left: 550px;
+  top: 50px;
 }
 
-
-img{
-  width:230px;
-  height: auto;
-  position: relative;
-  left:350px;
-  top:100px;
-
-}
-
-
-p{
-  font-family: 'Ubuntu', sans-serif;
+p {
   font-size: 18px;
-  line-height:1.3em;
-  width:600px;
-  position:relative;
+  line-height: 1.3em;
+  width: 600px;
+  position: relative;
   text-align: left;
-  left:400px;
-  top:105px;
+  left: 400px;
+  top: 300px;
 }
 
 .hidden {
@@ -130,3 +105,4 @@ p{
     opacity: 1;
   }
 }
+/*# sourceMappingURL=style.css.map */
