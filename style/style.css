@@ -1,3 +1,7 @@
+html{
+  cursor: url('images/my-cursor.png'), auto;
+}
+
 body {
   font-family: 'Helvetica', sans-serif;
 }
@@ -31,6 +35,7 @@ footer{
   top:95%;
 }
 .animated-intro {
+  font-family: 'Ubuntu', sans-serif;
   display: block;
   line-height: 30px;
   font-size: 80px;
@@ -58,25 +63,39 @@ footer{
   opacity: 1;
   background: #fff5eb;
   color:#ff3108;
-  -webkit-animation: FadeIn 0.3s ease-in-out;
-          animation: FadeIn 0.3s ease-in-out;
+  -webkit-animation: FadeIn 0.4s ease-in-out;
+          animation: FadeIn 0.4s ease-in-out;
 }
+
 
 about{
+  font-family: 'Ubuntu', sans-serif;
   font-size: 30px;
   position: relative;
-  left:550px;
-  top:50px;
+  left:580px;
+  bottom:160px;
 }
 
+
+img{
+  width:230px;
+  height: auto;
+  position: relative;
+  left:350px;
+  top:100px;
+
+}
+
+
 p{
+  font-family: 'Ubuntu', sans-serif;
   font-size: 18px;
   line-height:1.3em;
   width:600px;
   position:relative;
   text-align: left;
   left:400px;
-  top:300px;
+  top:105px;
 }
 
 .hidden {
@@ -104,4 +123,3 @@ p{
     opacity: 1;
   }
 }
-/*# sourceMappingURL=style.css.map */
